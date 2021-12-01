@@ -1,0 +1,27 @@
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #ffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    height: 10px;
+	background: linear-gradient(transparent,#e66900);
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(transparent, hsl(27, 90%, 62%));
+}
+
+.swiper-button-disabled {
+    opacity: 0.5;
+    cursor: auto;   
+}
