@@ -1,4 +1,5 @@
-const plugin = require('tailwindcss/plugin');
+const plugin = require('tailwind-scrollbar')
+;
 
 module.exports = {
   mode: 'jit',
@@ -13,6 +14,8 @@ module.exports = {
       colors: {
         "orange-primary": "#E66900",
         "orange-secondary": "#E4761A",
+        "orange-transparant": "#FEE7CF",
+        "orange-card-primary": "#FED583",
         "bg-hero": "rgba(250, 174, 96, 0.3)",
         "black-primary": "#423E3E"
       },
@@ -21,7 +24,9 @@ module.exports = {
       },
       margin: {
         "27": "6.875rem",
-        "32.5": "8.5rem"
+        "32.5": "8.5rem",
+        "30.5": "8.188rem",
+        "30.1": "8.438rem"
       },
       fontSize: {
         "5.1xl": "3.125rem"
@@ -40,5 +45,17 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    // plugin[0](function ({addUtilities, addComponents, e, prefix, config }) {
+    //   const newUtilities = {
+    //     "::-webkit-scrollba": {
+    //       "width": "10px",
+    //     },
+    //     "::-webkit-scrollbar-thumb": {
+    //       "background": "#E66900"
+    //     }
+    //   }
+    //   addUtilities(newUtilities);
+    // })
+  ],
 }
