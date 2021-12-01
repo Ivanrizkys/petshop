@@ -1,4 +1,5 @@
 import 'tailwindcss/tailwind.css'
+import "../App.css";
 // import "swiper/css/bundle";
 
 function MyApp({ Component, pageProps }) {
