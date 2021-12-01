@@ -14,7 +14,7 @@ const IntroductionSection = ({Swiper, SwiperSlide}) => {
 						alt="section image 2"
 					/>
 				</div>
-				<div className="w-6/12">
+				<div className="w-6/12 pl-11">
 					<SectionTittle>Who We Are</SectionTittle>
                     <Slide Swiper={Swiper} SwiperSlide={SwiperSlide}/>
                     <StyledButtonWraper>
@@ -25,7 +25,7 @@ const IntroductionSection = ({Swiper, SwiperSlide}) => {
                                 alt="prev button"
                             />
                             <img className="swiper-button-next px-3 cursor-pointer" src="next-button.svg" alt="next button" />
-                            <div className="swiper-pagination-custom"></div>
+                            <div className="swiper-pagination-custom font-poppins text-black-primary text-base"></div>
                         </div>
                     </StyledButtonWraper>
 				</div>

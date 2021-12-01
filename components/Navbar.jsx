@@ -14,7 +14,7 @@ const Navbar = () => {
                     <NavItem href="#" scheme="disable">Feature</NavItem>
                     <NavItem href="#" scheme="disable">Contact</NavItem>
                 </ul>
-                <div className="w-3/12 text-right -mx-3" >
+                <div className="w-3/12 text-right " >
                     <Button className="mx-3" variant="transparant">Register</Button>
                     <Button variant="orange">Login</Button>
                 </div>

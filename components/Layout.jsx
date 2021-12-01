@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
 				<title>Petshop</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<div className="m-0 p-0 box-border">{children}</div>
+			<div className="m-0 p-0 box-border scrollbar-thumb:bg-red-500 scrollbar-track:rounded">{children}</div>
 		</>
 	);
 };
