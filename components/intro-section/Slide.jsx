@@ -2,13 +2,13 @@ const Slide = ({Swiper, SwiperSlide}) => {
     return (
         <Swiper pagination={{type: 'fraction', el: '.swiper-pagination-custom'}} navigation={{nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev'}} className="mySwiper">
             <SwiperSlide>
-                <div className="font-poppins text-base text-black-primary tracking-wider mt-8">
-                    <p className="mb-4">
+                <div className="font-poppins text-sm lg:text-base text-black-primary tracking-wider lg:mt-8">
+                    <p className="mb-2 lg:mb-4">
                         We are a community of animal lovers, especially cats
                         and dogs, we have the initiative to maintain
                         environmental health by helping abandoned animals
                     </p>
-                    <p className="mb-4">
+                    <p className="mb-2 lg:mb-4">
                         In addition we also open charities and adoptions for
                         other animal lovers, we are also always willing to
                         accept pets or abandoned animals to be cared for
@@ -21,13 +21,13 @@ const Slide = ({Swiper, SwiperSlide}) => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="font-poppins text-base text-black-primary tracking-wider mt-8">
-                    <p className="mb-4">
+                <div className="font-poppins text-sm lg:text-base text-black-primary tracking-wider lg:mt-8">
+                    <p className="mb-2 lg:mb-4">
                         We are a community of animal lovers, especially cats
                         and dogs, we have the initiative to maintain
                         environmental health by helping abandoned animals
                     </p>
-                    <p className="mb-4">
+                    <p className="mb-2 lg:mb-4">
                         In addition we also open charities and adoptions for
                         other animal lovers, we are also always willing to
                         accept pets or abandoned animals to be cared for
@@ -40,13 +40,13 @@ const Slide = ({Swiper, SwiperSlide}) => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="font-poppins text-base text-black-primary tracking-wider mt-8">
-                    <p className="mb-4">
+                <div className="font-poppins text-sm lg:text-base text-black-primary tracking-wider lg:mt-8">
+                    <p className="mb-2 lg:mb-4">
                         We are a community of animal lovers, especially cats
                         and dogs, we have the initiative to maintain
                         environmental health by helping abandoned animals
                     </p>
-                    <p className="mb-4">
+                    <p className="mb-2 lg:mb-4">
                         In addition we also open charities and adoptions for
                         other animal lovers, we are also always willing to
                         accept pets or abandoned animals to be cared for

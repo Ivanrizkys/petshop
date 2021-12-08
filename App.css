@@ -25,3 +25,19 @@
     opacity: 0.5;
     cursor: auto;   
 }
+
+body {
+	overflow-x: hidden;
+}
+.fourth-line-check {
+	transform: rotate(-45deg) translate(-1px, 0);
+}
+.first-line-check {
+	transform: rotate(45deg) translate(-1px, -1px);
+}
+.first-line {
+	transform-origin: 0 0;
+}
+.fourth-line {
+	transform-origin: 0 100%;
+}
