@@ -41,3 +41,9 @@ body {
 .fourth-line {
 	transform-origin: 0 100%;
 }
+
+@media only screen and (max-width: 500px) {
+	::-webkit-scrollbar {
+		display: none;
+	}	
+}
