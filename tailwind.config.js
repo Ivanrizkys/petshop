@@ -64,16 +64,5 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    plugin(function ({addUtilities, addComponents, e, prefix, config }) {
-      const newUtilities = {
-        "::-webkit-scrollba": {
-          "width": "10px",
-        },
-        "::-webkit-scrollbar-thumb": {
-          "background": "#E66900"
-        },
-      }
-      addUtilities(newUtilities);
-    })
   ],
 }
