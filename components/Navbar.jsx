@@ -27,7 +27,7 @@ const Navbar = ({screenWidth}) => {
                     {/* <p>{toggle ? "True": "False"}</p> */}
                 </div>
             </nav>
-            <ul className={`flex flex-col justify-around md:justify-evenly items-center absolute w-screen h-screen right-0 top-0 bg-orange-transparant z-10 transition duration-500 transform ${!toggle && "-translate-y-full"}`}>
+            <ul className={`flex flex-col justify-around md:justify-evenly items-center absolute w-screen h-screen right-0 top-0 bg-orange-transparant z-10 transition duration-500 pt-12 transform ${!toggle && "-translate-y-full"}`}>
                 
                     <>
                         <NavItem className="" href="#" scheme="active">Home</NavItem>
